@@ -1,0 +1,85 @@
+etape 1 : tsobbou aal pc beech yaaref lpc li enty tekh
+Microsoft Windows [Version 10.0.18362.720]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\ouesl>git clone https://github.com/yosra2001/first.git
+Cloning into 'first'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\ouesl>git status
+fatal: not a git repository (or any of the parent directories): .git
+
+C:\Users\ouesl>cd first
+
+C:\Users\ouesl\first>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        text.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\ouesl\first>git add *
+
+C:\Users\ouesl\first>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   text.txt
+
+
+C:\Users\ouesl\first>git commit -m
+error: switch `m' requires a value
+
+C:\Users\ouesl\first>git commit -m "hedha"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'ouesl@LAPTOP-GQQE7HR1.(none)')
+
+C:\Users\ouesl\first>git config --global user.email "ouesletyyosra@gmail.com"
+
+C:\Users\ouesl\first>git commit -m "hedha"
+[master 6a32dfe] hedha
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 text.txt
+
+C:\Users\ouesl\first>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 313 bytes | 313.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/yosra2001/first.git
+   6e03374..6a32dfe  master -> master
+
+C:\Users\ouesl\first>
+
+
+
+
+
+
+                 

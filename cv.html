@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">    
+<meta name="keywords" content="curriculum vitae,cv">
+<meta name="author" content="ouesletyyosra">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="mystyle.css">
+<style>
+    *{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+    margin: 0px;
+    text-align:  justify;
+    box-sizing: border-box;
+}
+body{
+    background-color: lavenderblush ;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+header{ 
+    width:  100% ;
+    padding: 20px,0px;
+    background:lavender ;
+    box-shadow: #333333;
+    border-bottom: 2px solid #4f4f4f;
+    height: 120px;
+
+}
+h1{ 
+    color : black;
+    font-size: 1.5em;
+    width:  90%;
+    margin : 0 auto ;
+}
+section{
+    display: -webkit-flex ;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 5px #bbbbbb;
+
+    background-color: #ffffff;
+
+}
+section h2 {
+    margin: 20px 0 ;
+    width: 90%;
+}
+section>div {
+    width : 90% ;
+}
+.photo{
+   
+    text-align: center;
+}
+.photo img {
+    -webkit-flex: 10;
+    width:  150 px;
+    height: 150px;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 10px #777777;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+.presentation {
+    display:-webkit-flex 1;
+    left : 80px ;
+    border-bottom: 5px dashed #cccccc;
+}
+
+.contact-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+.social {
+   
+    display: -ms-grid ;
+    justify-content: space-around;
+    margin: 5px auto 0px auto;
+}
+.social img {
+    
+    width : 30px ;
+    height: 30px;
+}
+
+.exp {
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbbbbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp h3 {
+    font-size: 1.2em;
+}
+.coml {
+    display: flex;
+    flex-flow: row wrap ;
+    margin-bottom: 10px ;
+}
+.comp { 
+    display: flex;
+    flex-flow: row wrap ;
+    margin-bottom: 10px ;
+}
+.conteneur-barre {
+    flex: 0 0 40% ;
+    border-radius: 5px;
+    background-color: grey;
+    border-bottom: 0px ridge grey;
+}
+.barre {
+    display: block;
+    height: 80%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c100 {
+    width: 100%;
+    background-color: lavender;
+    border-radius: 5px;
+}
+.c90 {
+    width: 90%;
+    background-color:lavender;
+}
+.c95 {
+    width: 95%;
+    background-color: lavender;
+}
+.interet {
+    flex: 0 1 50%;
+    display: list-item;
+    flex-flow: column wrap;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
+</style>
+</head>
+<body>
+<header>
+    <h1>Curriculum vitae de Yosra Oueslati </h1>
+</header>
+<section>
+    <div class ="photo">
+        <img src ="photocv.JPG"/>
+    </div>
+<div class = "presentation">
+    <h2> profil </h2>
+    <p> 
+        Diplômée dynamique et rigoureuse passionnée par la maintenance des applications informatiques, gestion de parcs matériels informatiques et réseaux. 
+        Excellentes connaissances du codage, Python, JavaScript et HTML.
+        Disponible immédiatement.
+
+    </p>
+</div>  
+<div class ="contact">
+    <h2> Informations de contact </h2>
+    <div class ="contact-flex">
+        <p> Nom : </p>
+        <p> Yosra Oueslati </p>
+    </div>
+   <div class="contact-flex"> 
+        <p> Adresse : </p>
+        <p> 17 rue du perroquet el mourouj2 tunis 1074  </p>   
+    </div> 
+    <div class ="contact-flex">
+        <p> Téléphone : </p>
+        <p> +21651483376 </p>
+    </div>
+    <div class ="conatct-flex">
+        <p> mail :</p>
+        <p> <a href="mailto:ouesletyyosra@gmail.com"> ouesletyyosra@gmail.com</a></p>
+    </div> 
+    <div class ="contact-flex">
+    <p> Permis : </p>
+    <p> B  </p>
+    </div>  
+   <div class ="social">
+     <a href ="https://www.facebook.com/yosra.oueslati.9/"><img src ="fb.PNG" alt= "logo Fb"></a>
+     <a href ="https://twitter.com/OuesletyYosra"><img src ="tw.PNG" alt= "logo twitter"></a>
+     <a href ="https://www.linkedin.com/in/yosra-oueslety-60b500192/"><img src ="li.PNG" alt= "logo linkedin "></a>
+</div>     
+</div>  
+</section>
+<section>
+    <h2> Education </h2>
+    <div class ="educ-flex">
+        <h3> baccalauréat mathématiques :  </h3>
+        <p>Lycée secondaire el mourouj 2 <br> 2009-2010 </p>
+        
+    </div>
+    <div class ="educ-flex">
+        <h3>  Licence en computer science : </h3>
+        <p> institut superieur de l'informatique </p>
+        <p> 2010-2013  </p>
+        
+    </div>
+    <div class ="educ-flex">
+       <h3> Mastère en intelligence artificielle :  </h3>
+       <p> l'université MinesParisTech en france <br> 2016-2018  </p>
+        
+    </div>
+
+</section>
+<section>
+    <h2> Expériences professionnelles  : </h2>
+    <div class ="exp">
+         <h3> développeur : </h3>
+         <p>2013-2015 chez ST2I en tunisie </p>
+    </div>
+    <div class ="exp">
+        <h3> Responsable métier Intelligence Artificielle Big Data H/F :  </h3>
+        <p> 2018-jusqu'à présent chez LGM en France </p>
+    </div>
+
+</section>
+<section>
+    <h2> compétences linguistiques : </h2>
+    <div class =" coml">
+        <ul>
+    <li> arabe </li>
+    <li> français </li>
+    <li> anglais </li>
+    <li> espagnole  </li>
+    </ul>
+</div>
+</section>
+<section>
+    <h2> vie sociale </h2> 
+    <div class ="vie-soc">
+    <ul>
+        <li> club google developer students DSC-ISI </li>
+        <li> club freeways ISI</li>
+    </ul>
+    </div>
+</section>
+<section> 
+    <h2> compétences </h2>
+    <div class ="comp">
+        <p>HTML-CSS-javascript</p>
+        <div class ="conteneur-barre  " > <span class ="barre c100 " ></span></div>
+    </div>
+    <div class ="comp">
+        <p>c/cpp/java/python</p>
+        <div class ="conteneur-barre  " > <span class ="barre c95 " ></span></div>
+    </div>
+    <div class ="comp">
+        <p> Analysis & Problem Solving Skills </p>
+        <div class ="conteneur-barre  " > <span class ="barre c90 " ></span></div>
+    </div>
+</section>
+<section>
+    <h2> centres d'interets </h2>
+    <div class ="interet">
+        <ul>
+        <li> Litérature </li>
+        <li> Cuisine </li>
+        <li> Les voyages </li>
+        </ul>
+    </div>
+</section>
+</body>
+</html>

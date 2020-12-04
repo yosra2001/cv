@@ -1,0 +1,143 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+    margin: 0px;
+    text-align:  justify;
+    box-sizing: border-box;
+}
+body{
+    background-color: lavenderblush ;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+header{ 
+    width:  100% ;
+    padding: 20px,0px;
+    background:lavender ;
+    box-shadow: #333333;
+    border-bottom: 2px solid #4f4f4f;
+    height: 120px;
+
+}
+h1{ 
+    color : black;
+    font-size: 1.5em;
+    width:  90%;
+    margin : 0 auto ;
+}
+section{
+    display: -webkit-flex ;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 10px auto;
+    box-shadow: 0px 0px 5px #bbbbbb;
+
+    background-color: #ffffff;
+
+}
+section h2 {
+    margin: 20px 0 ;
+    width: 90%;
+}
+section>div {
+    width : 90% ;
+}
+.photo{
+   
+    text-align: center;
+}
+.photo img {
+    -webkit-flex: 10;
+    width:  150 px;
+    height: 150px;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 0px 10px #777777;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+.presentation {
+    display:-webkit-flex 1;
+    left : 80px ;
+    border-bottom: 5px dashed #cccccc;
+}
+
+.contact-flex {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-flex p : first-child {
+    flex :0 0 30%;
+}
+.contact-flex p : last-child {
+    flex :0 0 30%;
+}
+.social {
+   
+    display: -ms-grid ;
+    justify-content: space-around;
+    margin: 5px auto 0px auto;
+}
+.social img {
+    
+    width : 30px ;
+    height: 30px;
+}
+
+.exp {
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbbbbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp h3 {
+    font-size: 1.2em;
+}
+.coml {
+    display: flex;
+    flex-flow: row wrap ;
+    margin-bottom: 10px ;
+}
+.comp { 
+    display: flex;
+    flex-flow: row wrap ;
+    margin-bottom: 10px ;
+}
+.conteneur-barre {
+    flex: 0 0 40% ;
+    border-radius: 5px;
+    background-color: grey;
+    border-bottom: 0px ridge grey;
+}
+.barre {
+    display: block;
+    height: 80%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.c100 {
+    width: 100%;
+    background-color:#3366cc;
+    border-radius: 5px;
+}
+.c90 {
+    width: 90%;
+    background-color:#3366cc;
+}
+.c95 {
+    width: 95%;
+    background-color: #3366cc;
+}
+.interet {
+    flex: 0 1 50%;
+    display: list-item;
+    flex-flow: column wrap;
+    align-items: baseline;
+    margin-bottom: 20px;
+}
