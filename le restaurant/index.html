@@ -6,133 +6,173 @@
         <meta name="description" content="LeRestaurant">
         <meta name="keywords" content=" Restaurant , Montpellier,fruit de mer ">
         <link rel="Restaurant icon " type="image/png" href="icon.png "/>  
+        <style>
+            * {
+                box-sizing: border-box;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+              }
+              
+              body {
+                margin: 0;
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+                background-color: bisque;
+              }
+              
+            
+              .topnav {
+                overflow: hidden;
+                background-color: #333;
+              }
+              
+            
+              .topnav a {
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+              }
+              
+             
+              .topnav a:hover {
+                background-color: #ddd;
+                color: black;
+              }
+              
+             
+              .content {
+                background-color: #ddd;
+                padding: 10px;
+              }
+              
+            
+              .footer {
+                background-color: #f1f1f1;
+                padding: 10px;
+              }
+            </style>
+            
     </head>
     <body> 
-         <nav>
-            <ul>
-                <li><a href="index.html" title="Acceuil" > acceuil </a></li>
-                <li><a href="menu.html"> Menu</a> </li>
-                <li><a href="conatct.html">Conatct</a> </li>
-            </ul>
-        </nav>
-        <h1>nous contacter</h1>
-        <form action="contact.html">
-        <fieldset>
-            <legend>nous contacter </legend>
-            <div>
-                <label for="e-mailinput">votre e-mail </label>
-                <input type="text"name ="e-mail" id="e-mailinput" placeholder="contact@gmail.com" required type="email">
-            </div>
-            <div>
-                <label for="fileinput">pièce jointe</label>
-                <input type="file" name="file" id="fileinput">
-            </div>
-            <div>
-                <label for="nameinput">Votre nom </label>
-                <input type="text" name="firstname"id="nameinput" >
-            </div>
-            <div>
-                <label for="mdpinput">votre mot de passe </label>
-                <input type="password" name="mdp" id="mdpinput">
-            </div>
-            <div>
-                <label > m'envoyer mes réponses </label>
-                <input type="checkbox">
-            </div>
-            <div>
-                <label for=""> matanajaamch tna77eha hahahahaah</label>
-                <input type="radio">
-            </div>
-            <div>
-                <label>sexe </label>
-               <div>
-                <input type="radio" name="sexe " id="masculin">
-                <label for="masculin">masculin</label>
-            </div>
-            <div>
-                <label id="annee">annee</label>
-                <select name="annee" id="annee">
-                <option >2020</option>
-                <option >2019</option>
-                <option >2018</option>
-                <option >2017</option>
-                <option >2016</option>
-            </select>
-            </div>
-            <div>
-                <label id="animal">animal préféré</label>
-                <select name="animal" id="animal" multiple>
-                    <optgroup label="mammifère">
-                        <option>cheval</option>
-                        <option>chat</option>
-                    </optgroup>
-                    <optgroup label="poisson">
-                        <option>dauphin</option>
-                    </optgroup>
-
-                </select>
-            </div>
-            <div>
-                <input type="radio" name="sexe " id="feminin">
-                <label for="feminin">feminin</label>
-            </div>
-            </div>
-            <div>
-                <label for="message">votre message</label>
-                <textarea name="message" id="message" cols="30" rows="10">votre message</textarea>
-            </div>
-            <div>
-                <label><input type="checkbox" name="cgu">j'accepte les conditions</label>
-            </div>
-        <input type="submit" value="envoyer un email">
-        </fieldset>
-    </form>
-
-
-
-
-
-
-
-
-
-        <h1>Restaurant le Fiasco </h1>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.4713704791516!2d3.9005591846354823!3d43.59672617912315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af5c5081137b%3A0x5e0beee45e97ffbf!2sMairie%20Montpellier!5e0!3m2!1sar!2stn!4v1606661761058!5m2!1sar!2stn" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
-        <iframe src="menu.html" width ="800"height="600" frameborder="0" allow="autoplay;encrypted-media" allowfullscreen></iframe>
-
-        <a href="bg.jpg" ta rget="blank">
-            <img src="bg.jpg" alt="LeRestaurant">
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="conatct.html">Contact</a>
+            <a href="entre_1.html">Entre</a>
+            <a href="menu.html">Menu</a>
+          </div>
          
-         </a>
-         <div lang="fr" class="bigtext ">
-        <p>
-         Lorem ipsum dolor sit amet ,<a href="#cuisine">cuisine</a> consectetur adipisicing elit. Labore ducimus adipisci tempora laboriosam architecto recusandae possimus, maiores dignissimos consequatur quas omnis accusantium dolores, atque assumenda nulla quo voluptatum, ut soluta.
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores in fugit esse ad adipisci voluptatem ipsam quaerat. Maxime cum hic odit, voluptate consequatur laudantium, tempora consequuntur facere praesentium, est voluptatem?
-        Consequatur placeat quis ullam maxime recusandae! Earum quibusdam est id, recusandae a aperiam suscipit perspiciatis tenetur repellendus iusto rerum natus voluptates facilis delectus nostrum exercitationem. Adipisci nisi odit maiores itaque.
-        Quis, fugit. Quidem magni ex dolor magnam ratione dolorem ipsam voluptatibus ad, voluptas molestias corrupti reprehenderit debitis facilis quis eveniet maiores quae id voluptatem fugiat. Iure quos reprehenderit ratione laudantium!
-        Consequatur, maiores assumenda amet harum nesciunt voluptates alias debitis incidunt perspiciatis commodi, optio expedita natus obcaecati veritatis repellendus quam laboriosam iste dolore error quae, odio numquam officia! Sequi, dignissimos esse.
-        Sequi iure ratione sit harum tenetur aliquam expedita incidunt beatae, tempora voluptate quod deserunt explicabo fuga ex, alias eius, quo asperiores ullam obcaecati saepe. Ratione, quae sapiente. Repellat, earum voluptates!
-        Lorem  une large selection sur des <a href="menu.html#plats" > plats</a> ipsum dolor sit amet consectetur adipisicing elit. Ullam perferendis molestias neque itaque vero, facilis, laudantium veritatis magnam temporibus dolores at reiciendis mollitia nesciunt alias, numquam accusamus commodi rerum enim.
-        </p>
-        </div>
-        
-        <hr>
-        <h2> Historique </h2>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vel repudiandae omnis, similique natus ipsa laudantium perspiciatis corporis earum ducimus voluptate nemo blanditiis nobis explicabo mollitia beatae nesciunt tenetur placeat.
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ad aliquid commodi reiciendis dolore modi voluptatum. Odit suscipit praesentium, quos, reiciendis necessitatibus sequi quis, tempore totam dolorem aliquid at velit?
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis repellendus vitae temporibus fugit doloremque aut qui nesciunt vel reiciendis! Soluta nobis dolor veritatis maxime, fugiat laborum voluptatibus autem laboriosam nostrum?
-
-        <h2 id="cuisine">   Notre cuisine </h2>
-        <img src="html.png" alt="logo html5" width="200" height="200">
-        <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nobis, ut quis dolores molestias distinctio fugit! Provident, earum? Quae molestiae tenetur itaque voluptatibus laborum incidunt fuga suscipit? Aliquid, nobis reprehenderit! <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque beatae voluptatibus quae, aliquid veniam veritatis quos exercitationem itaque, nostrum adipisci impedit sunt magnam, accusamus expedita deleniti ipsam eveniet distinctio minus! <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae mollitia, blanditiis voluptas aliquam saepe exercitationem deleniti error ratione, laudantium molestias quibusdam minus doloremque dolorem ex sunt laboriosam architecto in voluptatem?
-        </p>
-        <p>
-            <a href="menu.html">voir le menu</a>  
-        </p>
-
+            <h1>Restaurant le Fiasco </h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2889.4713704791516!2d3.9005591846354823!3d43.59672617912315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b6af5c5081137b%3A0x5e0beee45e97ffbf!2sMairie%20Montpellier!5e0!3m2!1sar!2stn!4v1606661761058!5m2!1sar!2stn" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe> 
+            <iframe src="menu.html" width ="800"height="600" frameborder="0" allow="autoplay;encrypted-media" allowfullscreen></iframe>
+    
+            <a href="bg.jpg" ta rget="blank">
+                <img src="bg.jpg" alt="LeRestaurant">
+             
+             </a>
+             <div lang="fr" class="bigtext ">
+            <p>
+             Lorem ipsum dolor sit amet ,<a href="#cuisine">cuisine</a> consectetur adipisicing elit. Labore ducimus adipisci tempora laboriosam architecto recusandae possimus, maiores dignissimos consequatur quas omnis accusantium dolores, atque assumenda nulla quo voluptatum, ut soluta.
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores in fugit esse ad adipisci voluptatem ipsam quaerat. Maxime cum hic odit, voluptate consequatur laudantium, tempora consequuntur facere praesentium, est voluptatem?
+            Consequatur placeat quis ullam maxime recusandae! Earum quibusdam est id, recusandae a aperiam suscipit perspiciatis tenetur repellendus iusto rerum natus voluptates facilis delectus nostrum exercitationem. Adipisci nisi odit maiores itaque.
+            Quis, fugit. Quidem magni ex dolor magnam ratione dolorem ipsam voluptatibus ad, voluptas molestias corrupti reprehenderit debitis facilis quis eveniet maiores quae id voluptatem fugiat. Iure quos reprehenderit ratione laudantium!
+            Consequatur, maiores assumenda amet harum nesciunt voluptates alias debitis incidunt perspiciatis commodi, optio expedita natus obcaecati veritatis repellendus quam laboriosam iste dolore error quae, odio numquam officia! Sequi, dignissimos esse.
+            Sequi iure ratione sit harum tenetur aliquam expedita incidunt beatae, tempora voluptate quod deserunt explicabo fuga ex, alias eius, quo asperiores ullam obcaecati saepe. Ratione, quae sapiente. Repellat, earum voluptates!
+            Lorem  une large selection sur des <a href="menu.html#plats" > plats</a> ipsum dolor sit amet consectetur adipisicing elit. Ullam perferendis molestias neque itaque vero, facilis, laudantium veritatis magnam temporibus dolores at reiciendis mollitia nesciunt alias, numquam accusamus commodi rerum enim.
+            </p>
+            </div>
+            
+            <hr>
+            <h2> Historique </h2>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod vel repudiandae omnis, similique natus ipsa laudantium perspiciatis corporis earum ducimus voluptate nemo blanditiis nobis explicabo mollitia beatae nesciunt tenetur placeat.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint ad aliquid commodi reiciendis dolore modi voluptatum. Odit suscipit praesentium, quos, reiciendis necessitatibus sequi quis, tempore totam dolorem aliquid at velit?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis repellendus vitae temporibus fugit doloremque aut qui nesciunt vel reiciendis! Soluta nobis dolor veritatis maxime, fugiat laborum voluptatibus autem laboriosam nostrum?
+    
+            <h2 id="cuisine">   Notre cuisine </h2>
+            <img src="html.png" alt="logo html5" width="200" height="200">
+            <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates nobis, ut quis dolores molestias distinctio fugit! Provident, earum? Quae molestiae tenetur itaque voluptatibus laborum incidunt fuga suscipit? Aliquid, nobis reprehenderit! <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque beatae voluptatibus quae, aliquid veniam veritatis quos exercitationem itaque, nostrum adipisci impedit sunt magnam, accusamus expedita deleniti ipsam eveniet distinctio minus! <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae mollitia, blanditiis voluptas aliquam saepe exercitationem deleniti error ratione, laudantium molestias quibusdam minus doloremque dolorem ex sunt laboriosam architecto in voluptatem?
+            </p>
+            <p>
+                <a href="menu.html">voir le menu</a>  
+            </p>
+          </div>
+          <div class="content">
+            <h1>nous contacter</h1>
+            <form action="contact.html">
+            <fieldset>
+                <legend>nous contacter </legend>
+                <div>
+                    <label for="e-mailinput">votre e-mail </label>
+                    <input type="text"name ="e-mail" id="e-mailinput" placeholder="contact@gmail.com" required type="email">
+                </div>
+                <div>
+                    <label for="fileinput">pièce jointe</label>
+                    <input type="file" name="file" id="fileinput">
+                </div>
+                <div>
+                    <label for="nameinput">Votre nom </label>
+                    <input type="text" name="firstname"id="nameinput" >
+                </div>
+                <div>
+                    <label for="mdpinput">votre mot de passe </label>
+                    <input type="password" name="mdp" id="mdpinput">
+                </div>
+                <div>
+                    <label > m'envoyer mes réponses </label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <label for=""> matanajaamch tna77eha hahahahaah</label>
+                    <input type="radio">
+                </div>
+                <div>
+                    <label>sexe </label>
+                   <div>
+                    <input type="radio" name="sexe " id="masculin">
+                    <label for="masculin">masculin</label>
+                </div>
+                <div>
+                    <label id="annee">annee</label>
+                    <select name="annee" id="annee">
+                    <option >2020</option>
+                    <option >2019</option>
+                    <option >2018</option>
+                    <option >2017</option>
+                    <option >2016</option>
+                </select>
+                </div>
+                <div>
+                    <label id="animal">animal préféré</label>
+                    <select name="animal" id="animal" multiple>
+                        <optgroup label="mammifère">
+                            <option>cheval</option>
+                            <option>chat</option>
+                        </optgroup>
+                        <optgroup label="poisson">
+                            <option>dauphin</option>
+                        </optgroup>
+    
+                    </select>
+                </div>
+                <div>
+                    <input type="radio" name="sexe " id="feminin">
+                    <label for="feminin">feminin</label>
+                </div>
+                </div>
+                <div>
+                    <label for="message">votre message</label>
+                    <textarea name="message" id="message" cols="30" rows="10">votre message</textarea>
+                </div>
+                <div>
+                    <label><input type="checkbox" name="cgu">j'accepte les conditions</label>
+                </div>
+            <input type="submit" value="envoyer un email">
+            </fieldset>
+        </form>    
     </body>
 </html>
